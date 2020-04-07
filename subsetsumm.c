@@ -4,7 +4,6 @@
 #define true 1
 #define false 0
 
-//My function doesn't work correctly :( I'm sorry Ali. I couldn't figure it out.
 int subsetSum(int a[],int len, int k, int v) {
 	if (v == 0 && k == 0) {//we did it!
 		return true;
